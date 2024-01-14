@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -15,6 +17,18 @@ public class Application2 {
          * 예2) 10 입력 ----------> 출력결과) 삐빅! 어린이 입니다~
          * 예3) 28 입력 ----------> 출력결과) 삡! 성인 입니다~
          * */
+
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();                     // 정수로 하나 선언.
+
+        if (num <= 13){
+            System.out.println("삐빅 어린이 입니다.");
+        } else if (num <= 19) {
+            System.out.println("삐빅 청소년 입니다.");
+        } else {
+            System.out.println("삡 성인 입니다.");
+        }
+
     }
 
 }

@@ -10,6 +10,10 @@ public class Application5 {
          * abcdefghijklmnopqrstuvwxyz
          * */
 
+        for (int i = 'a'; i <= 'z'; i++) {
+            System.out.print((char)i);
+        }
+
     }
 
 }

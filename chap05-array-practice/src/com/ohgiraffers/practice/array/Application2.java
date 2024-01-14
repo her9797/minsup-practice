@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice.array;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -24,6 +26,7 @@ public class Application2 {
          * 준비된 과일이 없습니다.
          * */
 
+       
 
     }
 

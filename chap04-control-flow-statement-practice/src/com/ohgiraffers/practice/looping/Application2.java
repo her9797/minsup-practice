@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice.looping;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -13,6 +15,15 @@ public class Application2 {
          * 1부터 5까지의 합 : 15
          *
          * */
+
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        int p = 0;
+
+        for(int j = 1; j <= i; j++){
+            p += j;
+        }
+        System.out.println("1부터 입력받은 정수의 합 : " + p);
 
     }
 

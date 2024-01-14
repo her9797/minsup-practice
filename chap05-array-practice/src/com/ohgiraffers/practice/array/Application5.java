@@ -24,6 +24,8 @@ public class Application5 {
          * 양수 혹은 홀수만 입력해야 합니다.
          */
 
+
+
     }
 
 }

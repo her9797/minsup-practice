@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice;
 
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
@@ -15,6 +17,15 @@ public class Application1 {
          *
          * 홀이군!
          * */
+
+        Scanner sc = new Scanner(System.in);
+        int dotori = sc.nextInt();
+
+        if (dotori % 2 == 1 ){
+            System.out.println("홀이군!");
+        } else if (dotori % 2 != 1) {
+            System.out.println("짝이군!");
+        }
     }
 
 }

@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice.conditional;
 
+import java.util.Scanner;
+
 public class Application8 {
 
     public static void main(String[] args) {
@@ -36,6 +38,17 @@ public class Application8 {
          * ======================
          * 총 급여 : 3200000
          * */
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("월 급여 입력 : ");
+        int salary = sc.nextInt();
+        System.out.println("매출액 입력 : ");
+        double bonus = sc.nextDouble();
+
+
+
+
 
     }
 

@@ -24,6 +24,8 @@ public class Application6 {
          * 도토리탕후루의 가격은 5000원 입니다.
          * */
 
+
+
     }
 
 }

@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice.looping;
 
+import java.util.Scanner;
+
 public class Application6 {
 
     public static void main(String[] args) {
@@ -12,6 +14,24 @@ public class Application6 {
          * -- 출력 예시 --
          * 수박수박수
          * */
+
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        sc.nextLine();
+        int zero = 0;
+
+        for(int i = 1; i <= num; i++) {
+            zero = i;
+            if (zero % 2 == 1) {
+                System.out.print("토");
+            } else if (zero % 2 != 1){
+                System.out.print("마");
+            } else {
+                System.out.println("");
+            }
+
+        }
+        System.out.print(zero); // ??? 숫자 5가 왜 출력되는거임?
 
     }
 

@@ -10,6 +10,13 @@ public class Application1 {
          * 1부터 10까지의 합 : 55
          * */
 
+        int i = 0;
+
+        for (int j = 1; j <= 10; j++) {
+            i += j;
+
+        } System.out.println("1부터 10까지의 합 : " + i);
+
     }
 
 }

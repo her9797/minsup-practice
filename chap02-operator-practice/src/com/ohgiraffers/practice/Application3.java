@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice;
 
+import java.util.Scanner;
+
 public class Application3 {
 
     public static void main(String[] args) {
@@ -14,6 +16,13 @@ public class Application3 {
          * ---- 출력 결과 ---
          * 정상!!!!!
          * */
+
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        String result = (num < 12)? "정상입니다" : "비만입니다";      // 삼항연산자
+        System.out.println(result);
+
     }
 
 }

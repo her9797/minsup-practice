@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice.looping;
 
+import java.util.Scanner;
+
 public class Application4 {
 
     public static void main(String[] args) {
@@ -17,6 +19,15 @@ public class Application4 {
          * 3 : l
          * 4 : e
          * */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("문자열 입력 : ");
+        String str = sc.nextLine();
+
+        for (int i = 0 ; i < str.length(); i++){
+            char ch = str.charAt(i);
+            System.out.println(i + " : " + ch);
+        }
 
     }
 

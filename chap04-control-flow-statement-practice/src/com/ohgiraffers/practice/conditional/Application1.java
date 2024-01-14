@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice.conditional;
 
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
@@ -17,6 +19,16 @@ public class Application1 {
          * -- 출력 예시 --
          * 판매 가능합니다.
          * */
+
+        System.out.println("나이가 어떻게 되세요?");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        if (num < 20){
+            System.out.println("판매 불가능합니다. 음료 코너에서 골라주세요");
+        } else if (20 <= num) {
+            System.out.println("판매 가능합니다.");
+        }
 
     }
 

@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice.conditional;
 
+import java.util.Scanner;
+
 public class Application7 {
 
     public static void main(String[] args) {
@@ -24,6 +26,30 @@ public class Application7 {
          * 미소 점수 미달로 불합격입니다.
          * */
 
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("성실 점수 : ");
+        int n1 = sc.nextInt();
+        System.out.println("서비스 점수 : ");
+        int n2 = sc.nextInt();
+        System.out.println("미소 점수 : ");
+        int n3 = sc.nextInt();
+
+        int total = ((n1 + n2 + n3) / 3);
+
+
+
+        if(60 <= total && 40 <= n1 && 40 <= n2 && 40 <= n3) {
+            System.out.println("합격입니다.");
+        } else if (total < 60) {
+            System.out.println("평균 점수 미달로 불합격 입니다.");
+        } if (n1 < 40) {
+            System.out.println("성실 점수 미달로 불합격 입니다.");
+        } if (n2 < 40) {
+            System.out.println("서비스 점수 미달로 불합격 입니다.");
+        } if (n3 < 40) {
+            System.out.println("미소 점수 미달로 불합격 입니다.");
+        }
     }
 
 }

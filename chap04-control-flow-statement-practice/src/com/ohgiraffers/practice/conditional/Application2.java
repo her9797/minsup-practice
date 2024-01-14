@@ -1,5 +1,7 @@
 package com.ohgiraffers.practice.conditional;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -17,6 +19,16 @@ public class Application2 {
          * -- 출력 예시 --
          * 홀수입니다~!
          * */
+
+        System.out.println("짝홀, 그 결과는?");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        if(num % 2 == 1) {
+            System.out.println("홀수 입니다~");
+        } else if (num % 2 != 1) {
+            System.out.println("짝수 입니다~");
+        }
 
     }
 

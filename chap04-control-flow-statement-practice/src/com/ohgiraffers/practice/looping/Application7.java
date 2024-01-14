@@ -21,6 +21,8 @@ public class Application7 {
          * 소수다.
          * */
 
+
+
     }
 
 }
